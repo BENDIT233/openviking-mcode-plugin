@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent.minimax.cn/schemas/plugin-v1.schema.json",
+  "schemaVersion": 1,
+  "name": "openviking",
+  "displayName": "OpenViking Memory",
+  "version": "0.1.1",
+  "description": "OpenViking long-term memory for MiniMax Code: session-start identity injection, per-prompt semantic recall, viking:// URI guard, conversation capture with session commit, and OpenViking MCP tools (search, read, remember, write).",
+  "author": "bendit",
+  "icon": "icon.png",
+  "category": "Productivity",
+  "exampleQueries": [
+    "回忆一下我之前关于这个脚本的偏好。",
+    "把这次会话的结论存入 OpenViking 记忆库。",
+    "在 OpenViking 里搜索之前的排查结论。"
+  ],
+  "apps": [],
+  "mcpServers": ["servers.mcp.json"],
+  "skills": ["skills/openviking-memory/SKILL.md"],
+  "hooks": ["hooks/hooks.json"]
+}

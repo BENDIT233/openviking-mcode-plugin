@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "mcpServers": {
+    "openviking": {
+      "type": "stdio",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-NonInteractive",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "./servers/ov-mcp.ps1"
+      ],
+      "description": "OpenViking memory, resources and code context: search/find semantic retrieval, read/list/tree/grep/glob, remember/write/edit, forget, health.",
+      "timeout": 30000
+    }
+  }
+}
